@@ -369,7 +369,13 @@
 
    ;; https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale
    :spacing
-   {0 "0"
+   {"1of2" "50%"
+    "1of3" "33.333333%"
+    "2of3" "66.666667%"
+    "1of4" "25%"
+    "3of4" "75%"
+
+    0 "0"
     0.5 "0.125rem"
     1 "0.25rem"
     1.5 "0.375rem"
